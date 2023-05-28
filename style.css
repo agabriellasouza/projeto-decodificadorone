@@ -1,0 +1,173 @@
+/* Folha de estilo do projeto segredinho.*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #8B0000;
+    background-repeat: no-repeat;
+}
+
+header {
+    background: #8B0000;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.titulo-logo {
+    position: absolute;
+    top: 35px;
+    right: 1150px;
+
+}
+
+.logo-principal {
+    width: 5%;
+    border-radius: 40px;
+    position: relative;
+    font-weight: bold;
+}
+
+.btn-encriptar {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(168, 54, 54);
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    color: antiquewhite;
+    transition: 1s all;
+    cursor: pointer;
+    width: 20%;
+}
+
+.btn-encriptar:hover {
+    background: #8B00005A;
+    transform: scale(1.1);
+}
+
+.text-area {
+    opacity: 0.6;
+    border: none;
+    border-radius: 5px;
+    color: #8B0000;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding-left: 20px;
+    text-transform: lowercase;
+}
+
+::placeholder { 
+    color: antiquewhite; 
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.mensagem {
+    opacity: 0.6;
+    border: none;
+    border-radius: 5px;
+    color: #8B0000;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.btn-desencriptar {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(168, 54, 54);
+    color: antiquewhite;
+    margin: 15px 30px;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+    width: 20%;
+}
+
+.btn-desencriptar:hover {
+    background: #8B00005A;
+    transform: scale(1.1);
+}
+
+.informacao {
+    margin: 20px 0 0;
+    padding: 20px;
+    font-size: 14px;
+    color: #CCCCCC;
+
+}
+
+.btn-copiar {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(168, 54, 54);
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    color: antiquewhite;
+    transition: 1s all;
+    cursor: pointer;
+    width: 20%;
+}
+
+.btn-copiar:hover {
+    background: #8B00005A;
+    transform: scale(1.1);
+}
+
+footer {
+    background: #8B0000;
+	bottom: 0;
+	width: 100%;
+	display: inline-block;
+	vertical-align: center;
+	font-family: inherit;
+	font-size: 14px;
+	line-height: 24px;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+
+.copy {
+    text-align: center;
+    padding: 10px;
+    color: antiquewhite;
+    font-size: 14px;
+    margin: 20px 10px 0;
+    line-height: 24px;
+	position: relative;
+	bottom: 5px;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+svg {
+    vertical-align: center;
+	margin: 2px 2px 0 2px;
+    fill: antiquewhite;
+	position: relative;
+	font: inherit;
+	top: 4px;
+    display: inline;
+    justify-content: center;
+}
+
+svg:hover {
+	scale: calc(110%);
+	fill: rgb(247, 105, 128);
+	transition: all 0.5s;
+}
